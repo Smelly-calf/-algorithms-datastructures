@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58dadc62-8ab2-4944-8446-309945c9b069" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/sorting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/sorting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/wobbleSequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/abefore/majorityElement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/sorting/quicksort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/sorting/wobbleSequence.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sorting/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/mergesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sorting/mergesort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/quicksort.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/二级索引.png" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sorting/二级索引.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/array/聚簇索引.png" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/sorting/聚簇索引.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/before/singleNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/abefore/singleNumber.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +69,87 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/sort" />
+      <recent name="$PROJECT_DIR$/pkg/array" />
+      <recent name="$PROJECT_DIR$/pkg/recursive" />
       <recent name="$PROJECT_DIR$/pkg/dynamicProgramming" />
       <recent name="$PROJECT_DIR$/pkg/binaryTree" />
-      <recent name="$PROJECT_DIR$/pkg/stack" />
-      <recent name="$PROJECT_DIR$/pkg/linkedList" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/Smelly-calf/algorithms-datastructures/main">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Smelly-calf/algorithms-datastructures/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/sorting.go" />
+      <package value="github.com/Smelly-calf/algorithms-datastructures/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build majorityElement.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/abefore/majorityElement.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quicksort.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/sorting/quicksort.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build quicksort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/array/quicksort.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build wobbleSequence.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/sort/wobbleSequence.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="algorithms-datastructures" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/Smelly-calf/algorithms-datastructures/main" />
+        <item itemvalue="Go Build.go build quicksort.go (1)" />
+        <item itemvalue="Go Build.go build wobbleSequence.go" />
+        <item itemvalue="Go Build.go build quicksort.go" />
+        <item itemvalue="Go Build.go build majorityElement.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -84,10 +169,69 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
     <state x="496" y="387" key="#GOROOT" timestamp="1594291938739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="496" y="387" key="#GOROOT/0.0.1440.900@0.0.1440.900" timestamp="1594291938739" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594369957291">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1594369957291" />
+    <state x="417" y="97" key="#go_build_github.com/Smelly-calf/algorithms-datastructures/main" timestamp="1594471242384">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="417" y="97" key="#go_build_github.com/Smelly-calf/algorithms-datastructures/main/0.0.1440.900@0.0.1440.900" timestamp="1594471242384" />
+    <state x="417" y="96" key="#go_build_quicksort.go_(1)" timestamp="1594472123085">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="417" y="96" key="#go_build_quicksort.go_(1)/0.0.1440.900@0.0.1440.900" timestamp="1594472123085" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594473783832">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594473783832" />
+    <state width="1359" height="231" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1594293854799" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1594473783831">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594473783831" />
+    <state width="1359" height="231" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1594293854798" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1594473783831">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594473783831" />
+    <state width="1359" height="231" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1594293854797" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1594473783832">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594473783832" />
+    <state width="1359" height="231" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1594293854798" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1594473745355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594473745355" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1594473745355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594473745355" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1594473745354">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594473745354" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1594473745355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594473745355" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1594457290990">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1594457290990" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1594295019738">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594295019738" />
   </component>
 </project>

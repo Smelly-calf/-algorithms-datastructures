@@ -1,16 +1,8 @@
-package main
+package sorting
 
 import "fmt"
 
-func main() {
-	a := []int{2, 3, 5, 8, 3, 2}
-	fmt.Printf("排序前的数组: %+v\n", a)
 
-	tmp := make([]int, len(a))
-	MergeSort(a, 0, len(a)-1, tmp)
-	// 打印
-	fmt.Printf("排序后的数组: %+v\n", a)
-}
 // 归并排序: left=0，right=len(a)-1；
 // 先分再治，
 // 分裂的终止条件: 数组只有 1 个元素.
